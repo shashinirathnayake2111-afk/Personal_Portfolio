@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/png" href="img/aaii.png  ">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+        <nav id="navbar">
+            <div class="navigation-bar">
+                <div class="logo"><img src="img/Logo (1).png" alt="Logo"></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class = "hero-img">
+                    <img src="img/mee.png" alt="Hero Image" class="hero-image">
+                </div>
+                <h1 class="hero-title">Shashini Rathnayake</h1>
+                <h2 class="hero-subtitle">Hello<span class="wave">👋</span> I'm a <span id="typed"></span></h2>
+                <p class="hero-description">
+                    Passionate about creating engaging digital experiences with modern technologies. 
+                    Specialized in responsive web development, user interface design, and database optimization.
+                </p>
+            </div>
+            <div class="social">
+                <div class="social-links">
+                    <div class="social-icons">
+                    <a href="https://www.facebook.com/shashini.rathnayake.7/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.behance.com/shashini_rathnayake/" target="_blank"><i class="fab fa-behance"></i></a>
+                    <a href="https://www.linkedin.com/in/shashini-rathnayake-927b2523a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/shashini-rathnayake" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-envelope"></i> Get In Touch
+                </a>
+                <a href="#portfolio" class="btn btn-secondary">
+                    <i class="fas fa-code"></i> View My Work
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="About">
+        <h2 class="section-title">About Me</h2>
+        <p class="about-header">Passionate Developer & Creative Thinker</p>
+        <div class="about-content">
+            <div class="about-image">
+                <div class="circlea"></div>
+                <img src="img/hi.png" alt="About Me">
+            </div>
+            <div class="about-text">
+                <h3 class="info">Hey there, I'm Shashini Rathnayake.</h3>
+                <p>
+                    I'm a dedicated Software Engineer with a passion for crafting elegant and efficient web solutions. 
+                    With a strong foundation in web development and UI/UX design, I specialize in creating responsive, user-friendly websites 
+                    that not only look great but also perform seamlessly across all devices.
+                </p>
+                <p>
+                    When I'm not coding, you'll find me exploring new technologies, 
+                    contributing to open-source projects, or enjoying a good cup of coffee 
+                    while reading about the latest tech trends.
+                </p>
+                <button class="button">
+                    <a href="#contact" class="letter">Let's Work Together</a>
+                </button>
+            </div>
+        </div>
+        <div class="stats">
+            <div class="stat-box">
+                <div class="stat-number" data-target="50">8+</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" data-target="5">1+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" data-target="100">6+</div>
+                <div class="stat-label">Certifications Earned</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2 class="services-title">My Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">💻</div>
+                <h3 class="service-title">Web Development</h3>
+                <p class="service-description">
+                    Building responsive and user-friendly websites using modern technologies like HTML5, CSS3, JavaScript, and React.js.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3 class="service-title">UI/UX Design</h3>
+                <p class="service-description">
+                    Crafting intuitive and engaging user interfaces with a focus on user experience and accessibility using Figma.
+                </p>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">🛠️</div>
+                <h3 class="service-title">Database Optimization</h3>
+                <p class="service-description">
+                    Enhancing database performance through query optimization and efficient data management techniques using MySQL and Navicate premium.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skill">
+        <h2 class="skill-title">My Skills & Technologies</h2>
+        
+        <div class="scroll-container">
+            <div class="scroll-wrapper" id="scrollWrapper">
+            </div>
+        </div>
+
+        <div class="skills-section">
+                <h2>Professional Skills</h2>
+                <div class="circular-skills">
+                    <div class="circular-skill" data-percent="90">
+                        <div class="circle-container">
+                            <svg width="150" height="150">
+                                <circle class="circle-bg" cx="75" cy="75" r="65"></circle>
+                                <circle class="circle-progress" cx="75" cy="75" r="65"></circle>
+                            </svg>
+                            <div class="circle-text">90%</div>
+                        </div>
+                        <div class="skill-label">Team Work</div>
+                    </div>
+
+                    <div class="circular-skill" data-percent="80">
+                        <div class="circle-container">
+                            <svg width="150" height="150">
+                                <circle class="circle-bg" cx="75" cy="75" r="65"></circle>
+                                <circle class="circle-progress" cx="75" cy="75" r="65"></circle>
+                            </svg>
+                            <div class="circle-text">80%</div>
+                        </div>
+                        <div class="skill-label">Creativity</div>
+                    </div>
+
+                    <div class="circular-skill" data-percent="55">
+                        <div class="circle-container">
+                            <svg width="150" height="150">
+                                <circle class="circle-bg" cx="75" cy="75" r="65"></circle>
+                                <circle class="circle-progress" cx="75" cy="75" r="65"></circle>
+                            </svg>
+                            <div class="circle-text">55%</div>
+                        </div>
+                        <div class="skill-label">Project Management</div>
+                    </div>
+
+                    <div class="circular-skill" data-percent="75">
+                        <div class="circle-container">
+                            <svg width="150" height="150">
+                                <circle class="circle-bg" cx="75" cy="75" r="65"></circle>
+                                <circle class="circle-progress" cx="75" cy="75" r="65"></circle>
+                            </svg>
+                            <div class="circle-text">75%</div>
+                        </div>
+                        <div class="skill-label">Communication</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="section-header">My Portfolio</h2>
+
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="web">Designing</button>
+            <button class="filter-btn" data-filter="app">Development</button>
+            <button class="filter-btn" data-filter="branding">Others</button>
+        </div>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img class="imga" src="img/Seaside.png" alt="Project image">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Online Hotel Booking App</h3>
+                    <p>A modern hotel booking application with user-friendly interface and real-time availability.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">Prototype</span>
+                        <span class="tag">Wireframe</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-image">
+                    <img class="imga" src="img/tea.png" alt="Project image">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Coffee App</h3>
+                    <p>Web application for coffee enthusiasts to explore and order their favorite brews.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img class="imgb" src="img/st.png" alt="Project image">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Online Kids Story Book Self</h3>
+                    <p>A delightful storybook app for children featuring interactive stories and animations.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">Prototype</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="app">
+                <div class="portfolio-image">
+                    <img class="imga" src="img/Entrepreneur.PNG" alt="Project image">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Entrepreneur Landing Page</h3>
+                    <p>A modern web application for officers to showcase entrepreneurs data and manage them.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">PHP</span>                    
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img class="imga" src="img/photo.png" alt="Project image">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Photographer Portfolio</h3>
+                    <p>A stunning portfolio website showcasing the work of a professional photographer.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Figma</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-item" data-category="web">
+                <div class="portfolio-image">
+                    <img class="imga" src="img/lomiees.png" alt="Project image">
+                </div>
+                <div class="portfolio-content">
+                    <h3>E-commerce Clothing Store</h3>
+                    <p>Comprehensive e-commerce platform for clothing retailers.</p>
+                    <div class="portfolio-tags">
+                        <span class="tag">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+       <section id="resume" class="resume">
+        <h2 class="resume-header">My Resume</h2>
+        <div class="resume-container">
+        <div class="sidebar">
+            <button class="sidebar-button active" data-section="education">
+                <div class="icon-container">🎓</div>
+                <span class="button-label">Education</span>
+            </button>
+
+            <button class="sidebar-button" data-section="certifications">
+                <div class="icon-container">📜</div>
+                <span class="button-label">Certifications</span>
+            </button>
+
+            <button class="sidebar-button" data-section="experiences">
+                <div class="icon-container">💼</div>
+                <span class="button-label">Experiences</span>
+            </button>
+        </div>
+
+        <div class="content-area">
+            <!-- EDUCATION SECTION -->
+            <div class="content-section active" id="education">
+                <h2 class="education-header">🎓 Education</h2>
+
+                <div class="cards-container" id="cardsContainer">
+                    <div class="cards-wrapper" id="cardsWrapper">
+                        <div class="education-card">
+                            <div class="degree">
+                                <span class="degree-icon">🎓</span>
+                                <span>Diploma in Software Engineering</span>
+                            </div>
+                            <div class="institution">National Apprentice and Industrial Training Authority</div>
+                            <span class="duration">2023 - 2024</span>
+                            <div class="description">
+                                Comprehensive program covering software development lifecycle, programming languages, database management, mobile development, designing and web technologies. Completed with distinction.
+                            </div>
+                            <div class="skills">
+                                <span class="skill-tag">Software Engineering</span>
+                                <span class="skill-tag">Mobile Development</span>
+                                <span class="skill-tag">Database Systems</span>
+                                <span class="skill-tag">Web Development</span>
+                                <span class="skill-tag">UI/UX Design</span>
+                            </div>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="degree">
+                                <span class="degree-icon">💊</span>
+                                <span>Foundation in Pharmaceutical Studies</span>
+                            </div>
+                            <div class="institution">IMHS Campus</div>
+                            <span class="duration">2022 - 2023</span>
+                            <div class="description">
+                                Studied core subjects in pharmaceutical sciences including pharmacology, medicinal chemistry, pharmaceutics, and pharmacy practice. Gained foundational knowledge for a career in healthcare and pharmaceuticals.
+                            </div>
+                            <div class="skills">
+                                <span class="skill-tag">Knowledge of Medicine</span>
+                                <span class="skill-tag">Prescription Reading</span>
+                            </div>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="degree">
+                                <span class="degree-icon">💻</span>
+                                <span>Diploma in ICT</span>
+                            </div>
+                            <div class="institution">ICBT Campus</div>
+                            <span class="duration">2021 - 2022</span>
+                            <div class="description">
+                                Covered fundamental concepts in information technology including programming, networking, database management, web development, and system analysis. Developed practical skills for IT careers.
+                            </div>
+                            <div class="skills">
+                                <span class="skill-tag">Hardware Troubleshooting</span>
+                                <span class="skill-tag">Network</span>
+                                <span class="skill-tag">Web Designing</span>
+                                <span class="skill-tag">Database Management</span>
+                            </div>
+                        </div>
+
+                        <div class="education-card">
+                            <div class="degree">
+                                <span class="degree-icon">🗣️</span>
+                                <span>Diploma in English</span>
+                            </div>
+                            <div class="institution">ICBT Campus</div>
+                            <span class="duration">2021 - 2022</span>
+                            <div class="description">
+                                Focused on enhancing English language skills including reading, writing, speaking, and listening. Prepared for academic and professional communication in English-speaking environments.
+                            </div>
+                            <div class="skills">
+                                <span class="skill-tag">Speaking</span>
+                                <span class="skill-tag">Listening</span>
+                                <span class="skill-tag">Writing</span>
+                                <span class="skill-tag">Reading</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="scroll-indicator">
+                    ← Move your cursor to scroll →
+                </div>
+            </div>
+
+            <!-- CERTIFICATIONS SECTION -->
+            <div class="content-section" id="certifications">
+                <h2 class="certification-header">📜 Certifications</h2>
+
+                <div class="certifications-wrapper">
+                    <!--<button class="carousel-btn prev" id="prevBtn"><img src="img/icons8-arrow-50-3.png"></button>
+                    <button class="carousel-btn next" id="nextBtn"><img src="img/icons8-arrow-50.png"></button>--->
+                    
+                    <div class="certifications-carousel">
+                        <div class="certifications-track" id="certificationsTrack">
+                            <div class="cert-card">
+                                <div class="cert-card-inner">
+                                    <div class="cert-card-front">
+                                        <div class="cert-icon">🏆</div>
+                                        <div class="cert-title">Introduction to HTML, CSS & JavaScript</div>
+                                        <div class="cert-issuer">IBM</div>
+                                    </div>
+                                    <div class="cert-card-back">
+                                        <div class="cert-details">
+                                            <span class="cert-date">Issued: October 2025</span>
+                                            <div class="cert-description">
+                                                Basic web development certification covering the essential languages and tools needed to create interactive and engaging websites.
+                                            </div>
+                                        </div>
+                                        <div class="cert-skills">
+                                            <span class="cert-skill-tag">HTML5</span>
+                                            <span class="cert-skill-tag">CSS</span>
+                                            <span class="cert-skill-tag">JavaScript</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cert-card">
+                                <div class="cert-card-inner">
+                                    <div class="cert-card-front">
+                                        <div class="cert-icon">👩‍🎓</div>
+                                        <div class="cert-title">Introduction to Software Engineering</div>
+                                        <div class="cert-issuer">IBM</div>
+                                    </div>
+                                    <div class="cert-card-back">
+                                        <div class="cert-details">
+                                            <span class="cert-date">Issued: August 2025</span>
+                                            <div class="cert-description">
+                                                 provide comprehensive knowledge of software development, programming principles, and the diverse career opportunities within the IT industry. 
+                                            </div>
+                                        </div>
+                                        <div class="cert-skills">
+                                            <span class="cert-skill-tag">SDLC</span>
+                                            <span class="cert-skill-tag">Agile Methoddology</span>
+                                            <span class="cert-skill-tag">Scrum Methodology</span>
+                                            <span class="cert-skill-tag">Software Architecture and Design principles</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPERIENCES SECTION -->
+            <div class="content-section" id="experiences">
+                <h2 class="certification-header">💼 Professional Experience</h2>
+
+        <div class="timelines">
+            <div class="timeline-items">
+                <div class="timeline-dots"></div>
+                <div class="content">
+                    <h3 class="job-title">Freelancer</h3>
+                    <div class="company"></div>
+                    <div class="date">June 2025 - Present</div>
+                    <p class="description">
+                        Led the development of responsive web applications using React and modern JavaScript frameworks. Collaborated with cross-functional teams to deliver high-quality solutions.
+                    </p>
+                    <div class="skillsa">
+                        <span class="skill-taga">React</span>
+                        <span class="skill-taga">TypeScript</span>
+                        <span class="skill-taga">HTML</span>
+                        <span class="skill-taga">CSS</span>
+                        <span class="skill-taga">JavaScript</span>
+                        <span class="skill-taga">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-items">
+                <div class="timeline-dots"></div>
+                <div class="content">
+                    <h3 class="job-title">Web Development Intern</h3>
+                    <div class="company">Regional Development Bank - Head Office</div>
+                    <div class="date">Nov 2024 - Jun 2025</div>
+                    <p class="description">
+                        Gained hands-on experience in web development. Contributed to various projects and learned industry best practices.
+                    </p>
+                    <div class="skillsa">
+                        <span class="skill-taga">HTML5</span>
+                        <span class="skill-taga">CSS3</span>
+                        <span class="skill-taga">JavaScript</span>
+                        <span class="skill-taga">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-items">
+                <div class="timeline-dots"></div>
+                <div class="content">
+                    <h3 class="job-title">UI/UX Developer Intern</h3>
+                    <div class="company">Regional Development Bank - Head Office</div>
+                    <div class="date">Nov 2024 - June 2025</div>
+                    <p class="description">
+                        Led the designing of responsive web applications using Figma. Collaborated with cross-functional teams to deliver high-quality solutions.
+                    </p>
+                    <div class="skillsa">
+                        <span class="skill-taga">Figma</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="contact-header">
+                <h2 class="contact-title">Get Touch With Me</h2>
+                <p>Have a project in mind or just want to chat? Feel free to reach out!</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email Me</h3>
+                        <p>Drop me a line anytime</p>
+                        <a href="mailto:shashinirathnayake2111@gmail.com">shashinirathnayake2111@gmail.com</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h3>Call Me</h3>
+                        <p>Available Mon-Fri, 9AM-6PM</p>
+                        <a href="tel:+94742949504">+94 74 294 9504</a>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p>Galle, Sri Lanka</p>
+                        <p style="margin-top: 5px;">Available for remote work worldwide</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required placeholder="john@example.com">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required placeholder="Project Inquiry">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required placeholder="Tell me about your project..."></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="home-icon" onclick="scrollToTop()">
+        <i class="fas fa-home"></i>
+    </div>
+
+    <footer>
+        <div class="social-media">
+            <a href="mailto:sadasimalsha@gmail.com" class="socials">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="#" class="socials">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="socials">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="tel:+94742949504" class="socials">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+        <p>
+            &copy; 2025 Shashini Rathnayake. All rights reserved.
+        </p>
+    </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.2/vanilla-tilt.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script>
+        var typed=new Typed('#typed',{strings:["Web Developer","UI / UX Designer", "Freelancer"],typeSpeed:80,backSpeed:50,loop:true});
+
+        const technologies = [
+            { name: 'HTML5', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
+            { name: 'CSS3', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg' },
+            { name: 'JavaScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg' },
+            { name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg' },
+            { name: 'Node.js', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg' },
+            { name: 'Figma', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg' },
+            { name: 'Java', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg' },
+            { name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg' },
+            { name: 'MySQL', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg' },
+            { name: 'Git', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg' },
+            { name: 'TypeScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg' },
+            { name: 'Angular', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg' },
+             { name: 'Kotlin', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg' }
+        ];
+
+    const scrollWrapper = document.getElementById('scrollWrapper');
+
+    function createTechItem(tech) {
+        return `
+            <div class="tech-item">
+                <div class="logo-container">
+                    <img src="${tech.logo}" alt="${tech.name}">
+                </div>
+                <span class="tech-name">${tech.name}</span>
+            </div>
+        `;
+    }
+
+    const techHTML = technologies.map(tech => createTechItem(tech)).join('');
+    scrollWrapper.innerHTML = techHTML + techHTML;
+
+    const circularSkills = document.querySelectorAll('.circular-skill');
+    circularSkills.forEach(skill => {
+        const percent = skill.getAttribute('data-percent');
+        const circle = skill.querySelector('.circle-progress');
+        const circumference = 408;
+        const offset = circumference - (percent / 100) * circumference;
+        
+        setTimeout(() => {
+            circle.style.strokeDashoffset = offset;
+        }, 100);
+    });
+
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            const filter = btn.dataset.filter;
+
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+
+            portfolioItems.forEach(item => {
+                if (filter === 'all' || item.dataset.category === filter) {
+                    item.classList.remove('hide');
+                    item.style.animation = 'scaleIn 0.5s ease';
+                } else {
+                    item.classList.add('hide');
+                }
+            });
+        });
+    });
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
+    const navbar = document.getElementById('navbar');
+    const handleScroll = () => {
+        if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    };
+
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = {
+            name: document.getElementById('name').value,
+            email: document.getElementById('email').value,
+            subject: document.getElementById('subject').value,
+            message: document.getElementById('message').value
+        };
+        
+        const submitBtn = document.querySelector('.submit-btn');
+        const originalText = submitBtn.innerHTML;
+        
+        submitBtn.innerHTML = '<span>Sending...</span> <i class="fas fa-spinner fa-spin"></i>';
+        submitBtn.disabled = true;
+        
+        setTimeout(() => {
+            submitBtn.innerHTML = '<span>Message Sent!</span> <i class="fas fa-check"></i>';
+            
+            setTimeout(() => {
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+                document.getElementById('contactForm').reset();
+            }, 2000);
+            
+            console.log('Form Data:', formData);
+        }, 1500);
+    });
+
+    const infoCards = document.querySelectorAll('.info-card');
+    infoCards.forEach((card, index) => {
+        card.style.animation += `, float 3s ease-in-out infinite ${index * 0.2}s`;
+    });
+
+    const style = document.createElement('style');
+    style.textContent = `
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+    `;
+    document.head.appendChild(style);
+
+    const mobileMenu = document.querySelector('.mobile-menu');
+    const navLinks = document.querySelector('.nav-links');
+
+    mobileMenu.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+        mobileMenu.classList.toggle('active');
+    });
+
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        link.addEventListener('click', () => {
+            navLinks.classList.remove('active');
+            mobileMenu.classList.remove('active');
+        });
+    });
+
+    const cursor = document.querySelector('.cursor');
+    const cursorFollower = document.querySelector('.cursor-follower');
+    
+    document.addEventListener('mousemove', (e) => {
+        cursor.style.left = e.clientX + 'px';
+        cursor.style.top = e.clientY + 'px';
+        
+        setTimeout(() => {
+            cursorFollower.style.left = e.clientX + 'px';
+            cursorFollower.style.top = e.clientY + 'px';
+        }, 100);
+    });
+
+    window.addEventListener('scroll', handleScroll);
+
+    // SIDEBAR RESUME NAVIGATION - FIXED VERSION (KEEP ONLY THIS ONE)
+    window.addEventListener('DOMContentLoaded', function() {
+    const sidebarButtons = document.querySelectorAll('.sidebar-button');
+    const contentSections = document.querySelectorAll('.content-section');
+
+    console.log('Initialized - Buttons:', sidebarButtons.length, 'Sections:', contentSections.length);
+
+    sidebarButtons.forEach(button => {
+        button.addEventListener('click', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            const targetSection = this.getAttribute('data-section');
+            console.log('Clicked button for:', targetSection);
+            
+            sidebarButtons.forEach(btn => btn.classList.remove('active'));
+            contentSections.forEach(section => section.classList.remove('active'));
+            
+            this.classList.add('active');
+            
+            const sectionToShow = document.getElementById(targetSection);
+            if (sectionToShow) {
+                sectionToShow.classList.add('active');
+                console.log('✓ Activated section:', targetSection);
+            } else {
+                console.error('✗ Section not found:', targetSection);
+            }
+        });
+    });
+
+    // CERTIFICATIONS CAROUSEL INITIALIZATION
+    const track = document.getElementById('certificationsTrack');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+    const indicatorsContainer = document.getElementById('carouselIndicators');
+    
+    if (track && prevBtn && nextBtn) {
+        const cards = track.querySelectorAll('.cert-card');
+        const totalCards = cards.length;
+        let currentIndex = 0;
+        let cardsToShow = 3;
+
+        function updateCardsToShow() {
+            const width = window.innerWidth;
+            if (width < 768) cardsToShow = 1;
+            else if (width < 1200) cardsToShow = 2;
+            else cardsToShow = 3;
+        }
+
+        updateCardsToShow();
+
+        const maxIndex = Math.max(0, totalCards - cardsToShow);
+        for (let i = 0; i <= maxIndex; i++) {
+            const dot = document.createElement('div');
+            dot.classList.add('indicator-dot');
+            if (i === 0) dot.classList.add('active');
+            dot.addEventListener('click', () => goToSlide(i));
+            indicatorsContainer.appendChild(dot);
+        }
+
+        const indicators = indicatorsContainer.querySelectorAll('.indicator-dot');
+
+        function updateCarousel() {
+            const cardWidth = cards[0].offsetWidth;
+            const gap = 30;
+            const offset = currentIndex * (cardWidth + gap);
+            track.style.transform = `translateX(-${offset}px)`;
+            indicators.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentIndex);
+            });
+            prevBtn.disabled = currentIndex === 0;
+            nextBtn.disabled = currentIndex >= maxIndex;
+        }
+
+        function goToSlide(index) {
+            currentIndex = Math.min(Math.max(0, index), maxIndex);
+            updateCarousel();
+        }
+
+        prevBtn.addEventListener('click', () => {
+            if (currentIndex > 0) {
+                currentIndex--;
+                updateCarousel();
+            }
+        });
+
+        nextBtn.addEventListener('click', () => {
+            if (currentIndex < maxIndex) {
+                currentIndex++;
+                updateCarousel();
+            }
+        });
+
+        window.addEventListener('resize', () => {
+            updateCardsToShow();
+            updateCarousel();
+        });
+
+        updateCarousel();
+    }
+});
+
+        document.querySelectorAll('.timeline-items').forEach(item => {
+            item.addEventListener('click', function() {
+                this.style.transform = 'scale(1.02)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 200);
+            });
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.timeline-items').forEach(item => {
+            observer.observe(item);
+        });
+        
+    </script>
+    </body>
+</html>
