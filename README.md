@@ -1,10 +1,16 @@
 <h1 align="center"><b>🌟 Personal Portfolio Website 🌟</b></h1>
 
-<p align="left">A modern, responsive portfolio website showcasing my skills, projects, and professional experience as a Software Engineer and UI/UX Designer.</p>
+<p align="left">A modern, responsive portfolio website showcasing my skills, projects, and professional experience as a Software Engineer and UI/UX Designer. Built with clean code and a mobile-first approach to deliver an exceptional user experience across all devices.</p>
 
 <br>
 
 <img width="1907" height="867" alt="image" src="https://github.com/user-attachments/assets/a8b2de77-57ac-4c64-b5fd-ef511821989d" />
+
+<br>
+
+<br>
+
+<img width="425" height="762" alt="image" src="https://github.com/user-attachments/assets/f03adcbc-89fa-4179-a14a-6f52e053667f" />
 
 <br>
 
@@ -143,6 +149,79 @@
 - Contact Form: Fill out the form to send a message
 
 <br>
+
+---
+<h2 align="center">📱 Mobile Responsive Design</h2>
+
+<p>Mobile Optimization Features
+
+✅ Flexible grid layouts that adapt to screen size <br>
+✅ Touch-friendly navigation and interactive elements <br>
+✅ Optimized images with responsive sizing <br>
+✅ Hamburger menu for mobile navigation <br>
+✅ Scalable typography for readability <br>
+✅ Fast load times on mobile networks <br>
+✅ Smooth animations optimized for mobile devices <br>
+✅ Tested on iOS and Android devices </p>
+
+<h3>Mobile Screens</h3>
+
+<p align="left">Home Screen</p>
+
+<img width="417" height="745" alt="image" src="https://github.com/user-attachments/assets/bd1332a5-4538-4a18-8eb1-f8979963c393" />
+
+<br>
+
+<p align="left">About Screen</p>
+
+<img width="421" height="754" alt="image" src="https://github.com/user-attachments/assets/5667240e-6171-4ac3-9309-89809442ecab" />
+
+<br>
+
+<p align="left">My Services</p>
+
+<img width="420" height="756" alt="image" src="https://github.com/user-attachments/assets/08c5940c-fc77-4ad1-82f0-2efb9e291850" />
+
+<br>
+
+<p align="left">Skills & Technologies</p>
+
+<img width="422" height="760" alt="image" src="https://github.com/user-attachments/assets/00411edf-d52a-47c1-acbd-2bd06651fa70" />
+
+<br>
+
+<p align="left">Projects</p>
+
+<img width="420" height="750" alt="image" src="https://github.com/user-attachments/assets/61ca98bb-f5c5-454d-ae86-dcb47634b21d" />
+
+<br>
+
+<p align="left">Resume</p>
+
+<img width="420" height="750" alt="image" src="https://github.com/user-attachments/assets/6b635cf4-a1ee-4736-a8c7-8275a4174787" />
+
+<br>
+
+<p align="left">Contact</p>
+
+<img width="421" height="752" alt="image" src="https://github.com/user-attachments/assets/b02ce6ef-1632-44ed-8d74-0181e46c2241" />
+
+<br>
+
+<p align="left">Footer</p>
+
+<img width="412" height="747" alt="image" src="https://github.com/user-attachments/assets/13ecf71e-fb44-4364-834a-bc2ebc366f4d" />
+
+<br>
+
+<br>
+
+👤 Author:
+Shashini Rathnayake
+
+Website: https://personal-portfolio-mu-eight-2xs2ebfy9c.vercel.app <br>
+GitHub: https://github.com/ <br>
+LinkedIn: https://www.linkedin.com/in/shashini-rathnayake-628983326 <br>
 
 ---
 
